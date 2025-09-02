@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Installing…</title>
+  <meta http-equiv="refresh" content="0; url=./GetMC.mobileconfig">
+  <style>
+    :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { margin: 0; display: grid; place-items: center; min-height: 100svh; background: #0f172a; color: #e2e8f0; }
+    .card { background:#111827; padding: 2rem; border-radius: 1.25rem; box-shadow: 0 10px 30px rgba(0,0,0,.35); text-align: center; width:min(92vw,540px); }
+    .button { display:inline-block; padding: .8rem 1.1rem; border-radius: .75rem; font-weight: 600; text-decoration: none; background:#2563eb; color:white; margin-top:1rem; }
+    code { background:#0b1220; padding:.25rem .5rem; border-radius:.5rem; }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Try JS redirect as an extra nudge on some browsers
+      setTimeout(function(){ window.location.href = './GetMC.mobileconfig'; }, 120);
+    });
+  </script>
+</head>
+<body>
+  <main class="card">
+    <h1>Starting download…</h1>
+    <p>If nothing happens, tap the button below.</p>
+    <a class="button" href="./GetMC.mobileconfig">Download Profile</a>
+    <p style="opacity:.8;margin-top:1rem;">After allowing the download, go to <code>Settings → Profile Downloaded</code> to install.</p>
+  </main>
+</body>
+</html>
