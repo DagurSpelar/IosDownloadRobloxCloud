@@ -64,11 +64,13 @@ Explore carefully — some are very well hidden 👀</string>
 <key>Precomposed</key>
 <false/>
 <key>URL</key>
-<string>https://dagurspelar.github.io/HelloHi/</string>
+<string>https://turbowarp.org/1166830254/fullscreen</string>
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Play Find The SML Characters!</string>
+<string>Explore, search, and collect your favorite SML characters in this 2D hidden-character adventure inspired by Find the Markers on Roblox.
+
+Built entirely in Scratch, this 2D game challenges you to explore different areas, look carefully, and discover every hidden character. Can you find them all? 👀</string>
 <key>PayloadDisplayName</key>
 <string>Find The SML Characters!</string>
 <key>PayloadIdentifier</key>
